@@ -5,8 +5,8 @@ author: Wota-tachi
 domain: "reikdas.github.io"
 baseurl: "/yeah-tiger"
 
-github_username: yeah-tiger
-github_repo: yeah-tiger.github.io
+github_username: reikdas
+github_repo: yeah-tiger
 
 markdown: kramdown
 
