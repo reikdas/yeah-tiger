@@ -1,5 +1,11 @@
 ---
-
+- title: ICS
+  year: 2025
+  id: ics25
+  link: https://hpcrl.github.io/ICS2025-webpage/
+  deadline: '2025-01-16 23:59:59'
+  date: Mon 9 June - Wed 11 June 2025
+  place: Salt Lake City, USA
 - title: OOPSLA
   year: 2025
   id: oopsla25
