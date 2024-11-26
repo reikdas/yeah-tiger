@@ -1,11 +1,11 @@
 ---
-- title: ICS
+- title: SC
   year: 2025
-  id: ics25
-  link: https://hpcrl.github.io/ICS2025-webpage/
-  deadline: '2025-01-16 23:59:59'
-  date: Mon 9 June - Wed 11 June 2025
-  place: Salt Lake City, USA
+  id: sc25
+  link: https://sc25.supercomputing.org
+  deadline: '2025-04-14 23:59:59'
+  date: Tue 18 - Thu 20 November 2025
+  place: St. Louis, MO, USA
 - title: OOPSLA
   year: 2025
   id: oopsla25
@@ -14,6 +14,13 @@
   date: Sun 12 - Sat 18 October 2025
   place: Singapore
   note: Round 1 deadline on 15 October 2024 (AoE)
+- title: ICS
+  year: 2025
+  id: ics25
+  link: https://hpcrl.github.io/ICS2025-webpage/
+  deadline: '2025-01-16 23:59:59'
+  date: Mon 9 - Wed 11 June 2025
+  place: Salt Lake City, UT, USA
 - title: ECOOP
   year: 2025
   id: ecoop25
