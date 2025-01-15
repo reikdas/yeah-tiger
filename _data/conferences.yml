@@ -14,9 +14,16 @@
   date: Sun 12 - Sat 18 October 2025
   place: Singapore
   note: Round 1 deadline on 15 October 2024 (AoE)
-- title: ICS
+- title: ICS Round 2
   year: 2025
-  id: ics25
+  id: ics25r2
+  link: https://hpcrl.github.io/ICS2025-webpage/
+  deadline: '2025-02-27 23:59:59'
+  date: Mon 9 - Wed 11 June 2025
+  place: Salt Lake City, UT, USA
+- title: ICS Round 1
+  year: 2025
+  id: ics25r1
   link: https://hpcrl.github.io/ICS2025-webpage/
   deadline: '2025-01-16 23:59:59'
   date: Mon 9 - Wed 11 June 2025
