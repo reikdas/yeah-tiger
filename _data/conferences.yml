@@ -1,4 +1,18 @@
 ---
+- title: CGO Round 2
+  year: 2026
+  id: cgo26r2
+  link: https://2026.cgo.org/
+  deadline: '2026-09-11 23:59:59'
+  date: TBD
+  place: Sydney, Australia
+- title: CGO Round 1
+  year: 2026
+  id: cgo26r1
+  link: https://2026.cgo.org/
+  deadline: '2026-05-29 23:59:59'
+  date: TBD
+  place: Sydney, Australia
 - title: SC
   year: 2025
   id: sc25
