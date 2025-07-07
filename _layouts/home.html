@@ -41,7 +41,8 @@
               </div>
             </div>
         </div>
-        {% for conf in site.data.conferences %}
+        {% assign sorted_conferences = site.data.conferences | sort: 'deadline' | reverse %}
+        {% for conf in sorted_conferences %}
         <div id="{{conf.id}}">
           <div class="row conf-row">
               <div class="col-xs-5 col-sm-6">
@@ -115,7 +116,7 @@
           $('.local-timezone-hide').hide();
         }
 
-        {% for conf in site.data.conferences %}
+        {% for conf in sorted_conferences %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");

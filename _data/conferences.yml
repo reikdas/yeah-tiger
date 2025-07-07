@@ -1,11 +1,4 @@
 ---
-- title: MLSys
-  year: 2026
-  id: mlsys26
-  link: https://mlsys.org/
-  deadline: '2025-10-30 23:59:59'
-  date: 17 - 22 May 2026
-  place: TBD
 - title: CGO Round 2
   year: 2026
   id: cgo26r2
@@ -13,6 +6,13 @@
   deadline: '2025-09-11 23:59:59'
   date: TBD
   place: Sydney, Australia
+- title: MLSys
+  year: 2026
+  id: mlsys26
+  link: https://mlsys.org/
+  deadline: '2025-10-30 23:59:59'
+  date: 17 - 22 May 2026
+  place: TBD
 - title: ASPLOS Summer Cycle
   year: 2026
   id: asplos26summer
