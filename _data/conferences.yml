@@ -1,4 +1,11 @@
 ---
+- title: OOPSLA Round 2
+  year: 2026
+  id: oopsla26r2
+  link: https://conf.researchr.org/track/splash-2026/oopsla-2026
+  deadline: '2026-03-17 23:59:59'
+  date: 03 - 09 October 2026
+  place: California, USA
 - title: CGO Round 2
   year: 2026
   id: cgo26r2
@@ -6,6 +13,13 @@
   deadline: '2025-09-11 23:59:59'
   date: TBD
   place: Sydney, Australia
+- title: OOPSLA Round 1
+  year: 2026
+  id: oopsla26r1
+  link: https://conf.researchr.org/track/splash-2026/oopsla-2026
+  deadline: '2025-10-10 23:59:59'
+  date: 03 - 09 October 2026
+  place: California, USA
 - title: MLSys
   year: 2026
   id: mlsys26
