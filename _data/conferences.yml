@@ -6,6 +6,13 @@
   deadline: '2026-03-17 23:59:59'
   date: 03 - 09 October 2026
   place: California, USA
+- title: PLDI
+  year: 2026
+  id: pldi26
+  link: https://pldi26.sigplan.org/track/pldi-2026-papers
+  deadline: '2026-11-13 23:59:59'
+  date: 15 - 19 June 2026
+  place: Colorado, USA
 - title: CGO Round 2
   year: 2026
   id: cgo26r2
