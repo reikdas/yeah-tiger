@@ -1,4 +1,18 @@
 ---
+- title: SOSP
+  year: 2026
+  id: sosp26
+  link: https://sigops.org/s/conferences/sosp/2026/cfp.html
+  deadline: '2026-04-01 23:59:59'
+  date: 29 September - 2 October 2026
+  place: Prague, Czechia
+- title: ECOOP
+  year: 2026
+  id: ecoop26
+  link: https://2026.ecoop.org/track/ecoop-2026-technical-papers
+  deadline: '2025-11-27 23:59:59'
+  date: 29 June - 3 July 2026
+  place: Brussels, Belgium
 - title: OOPSLA Round 2
   year: 2026
   id: oopsla26r2
@@ -6,6 +20,14 @@
   deadline: '2026-03-17 23:59:59'
   date: 03 - 09 October 2026
   place: California, USA
+- title: OSDI
+  year: 2026
+  id: osdi26
+  link: https://www.usenix.org/conference/osdi26/call-for-papers
+  deadline: '2025-12-11 05:59:59'
+  date: 13 - 15 July 2026
+  place: Washington, USA
+  note: Abstract deadline on December 4th, 6pm EST
 - title: PLDI
   year: 2026
   id: pldi26
