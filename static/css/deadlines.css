@@ -156,9 +156,7 @@ footer {
   #conf-timer {
     font-size: 64px;
   }
-  .calendar {
-    margin-bottom: 10px;
-  }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -180,19 +178,4 @@ footer {
   font-size: 12px;
 }
 
-.calendar {
-  font-size: 12px;
-  margin-top: 3px;
-}
 
-.calendar img {
-  margin-right: 5px;
-}
-
-.ind-cal {
-  margin: 0 5px;
-}
-
-.calendar img {
-  height: 20px;
-}

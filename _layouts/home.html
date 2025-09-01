@@ -15,7 +15,7 @@
     <script src="{{ "/static/js/moment.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/moment-timezone-with-data.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
-    <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
+
 
   </head>
   <body>
@@ -34,11 +34,7 @@
                   Deadlines are shown in <span class="local-timezone">AoE</span> time.
                 </span>
               </div>
-              <div class="meta col-xs-12">
-                You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.baseurl }}/pl-deadlines.ics">Google Calendar</a> or
-                <a href="/pl-deadlines.ics">.ics</a>.
-              </div>
+
             </div>
         </div>
         {% assign sorted_conferences = site.data.conferences | sort: 'deadline' | reverse %}
@@ -76,7 +72,7 @@
                   <span class="deadline-time"></span>
                 </div>
               </div>
-              <div class="calendar"></div>
+
             </div>
           </div>
           <hr>
@@ -85,7 +81,7 @@
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <a href="/">{{ site.domain }}</a> is maintained by reikdas.<br>
+              <a href="/">{{ site.domain }}/yeah-tiger/a> is maintained by Pratyush Das.<br>
             </div>
           </div>
         </footer>
@@ -139,26 +135,7 @@
             console.log("Error converting to local timezone.");
           }
 
-          // add calendar button
-          var myCalendar = createCalendar({
-            options: {
-              class: 'calendar-obj',
 
-              // You can pass an ID. If you don't, one will be generated for you
-              id: '{{conf.id}}'
-            },
-            data: {
-              // Event title
-              title: '{{conf.title}} {{conf.year}} deadline',
-
-              // Event start date
-              start: confDate.toDate(), // new Date('June 15, 2013 19:00'),
-
-              // Event duration
-              duration: 60,
-            }
-          });
-          document.querySelector('#{{conf.id}} .calendar').appendChild(myCalendar);
 
           // check if date has passed, add 'past' class to it
           var today = moment();
