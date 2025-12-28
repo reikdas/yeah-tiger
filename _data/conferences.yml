@@ -1,4 +1,20 @@
 ---
+- title: SC
+  year: 2026
+  id: sc26
+  link: https://sc26.supercomputing.org/
+  deadline: '2026-04-08 23:59:59'
+  date: 17 November - 19 November 2026
+  place: Chicago, USA
+  note: Abstract submission on 1st April, 2026
+- title: ICS Round 2
+  year: 2026
+  id: ics2026r2
+  link: https://dipsa-qub.github.io/ICS2026-webpage/
+  deadline: '2026-02-09 23:59:59'
+  date: 6 July - 9 July 2026
+  place: Belfast, Northern Ireland, United Kingdom
+  note: Abstract submission on 2nd February, 2026
 - title: SOSP
   year: 2026
   id: sosp26
