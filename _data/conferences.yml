@@ -7,6 +7,7 @@
   date: 19 October - 22 October 2026
   place: Chicago, Illinois, USA
   note: Abstract submission on 17th April, 2026
+  notification: '5th August, 2026'
 - title: SC
   year: 2026
   id: sc26
@@ -15,6 +16,7 @@
   date: 17 November - 19 November 2026
   place: Chicago, USA
   note: Abstract submission on 1st April, 2026
+  notification: '1st July, 2026'
 - title: ICS Round 2
   year: 2026
   id: ics2026r2
@@ -23,6 +25,7 @@
   date: 6 July - 9 July 2026
   place: Belfast, Northern Ireland, United Kingdom
   note: Abstract submission on 2nd February, 2026
+  notification: '6th April, 2026'
 - title: ASPLOS April Cycle
   year: 2027
   id: asplos27april
@@ -43,6 +46,7 @@
   date: 29 September - 2 October 2026
   place: Prague, Czechia
   note: Abstract submission on 26th March, 2026
+  notification: '3rd July, 2026'
 - title: ECOOP
   year: 2026
   id: ecoop26
@@ -57,6 +61,7 @@
   deadline: '2026-03-17 23:59:59'
   date: 03 - 09 October 2026
   place: California, USA
+  notification: '10th June, 2026'
 - title: OSDI
   year: 2026
   id: osdi26
