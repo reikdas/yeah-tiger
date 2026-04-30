@@ -1,4 +1,16 @@
 ---
+- title: CGO Round 2
+  year: 2027
+  id: cgo2027r2
+  link: https://conf.researchr.org/home/cgo-2027
+  deadline: '2026-09-10'
+  notification: '20th October, 2026'
+- title: CGO Round 1
+  year: 2027
+  id: cgo2027r1
+  link: https://conf.researchr.org/home/cgo-2027
+  deadline: '2026-06-11'
+  notification: '21st July, 2026'
 - title: PACT
   year: 2026
   id: pact26
