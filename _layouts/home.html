@@ -38,8 +38,9 @@
             </div>
         </div>
         {% assign sorted_conferences = site.data.conferences | sort: 'deadline' | reverse %}
+        <div id="conf-list">
         {% for conf in sorted_conferences %}
-        <div id="{{conf.id}}">
+        <div id="{{conf.id}}" class="conf">
           <div class="row conf-row">
               <div class="col-xs-5 col-sm-6">
                   <a class="conf-title" href="{{conf.link}}">{{conf.title}} {{conf.year}}</a>
@@ -83,6 +84,7 @@
           <hr>
         </div>
         {% endfor %}
+        </div>
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
@@ -146,8 +148,23 @@
           var today = moment();
           if (today.diff(confDate) > 0)
             $('#{{conf.id}}').addClass('past');
+          $('#{{conf.id}}').data('deadline', confDate.valueOf());
         {% endif %}
         {% endfor %}
+
+        // Show upcoming deadlines soonest first (TBA last), then past deadlines most recent first
+        var now = moment().valueOf();
+        var confs = $('#conf-list > .conf').get();
+        confs.sort(function(a, b) {
+          var da = $(a).data('deadline'), db = $(b).data('deadline');
+          if (da === undefined) da = Infinity;
+          if (db === undefined) db = Infinity;
+          if (da === db) return 0;
+          var pastA = da < now, pastB = db < now;
+          if (pastA !== pastB) return pastA ? 1 : -1;
+          return pastA ? db - da : da - db;
+        });
+        $('#conf-list').append(confs);
     });
     <!-- Google analytics -->
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
