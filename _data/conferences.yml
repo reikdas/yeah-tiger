@@ -1,16 +1,114 @@
 ---
+- title: OOPSLA Round 2
+  year: 2027
+  id: oopsla27r2
+  link: https://2027.splashcon.org/track/splashoopsla2027
+  deadline: '2027-04-07 23:59:59'
+  date: 10 October - 15 October 2027
+  place: Prague, Czechia
+  notification: '2nd July, 2027'
+- title: ECOOP Round 2
+  year: 2027
+  id: ecoop27r2
+  link: https://2027.ecoop.org/track/ecoop-2027-technical-papers
+  deadline: '2027-02-11 23:59:59'
+  date: 28 June - 2 July 2027
+  place: Turin, Italy
+  notification: '8th April, 2027'
+- title: ISPASS
+  year: 2027
+  id: ispass27
+  link: https://www.ispass.org/2027/cfp/
+  deadline: '2026-12-18 23:59:59'
+  date: 9 May - 11 May 2027
+  place: New York City, USA
+  note: Abstract submission on 11th December, 2026
+  notification: '8th March, 2027'
+- title: OSDI
+  year: 2027
+  id: osdi27
+  link: https://www.usenix.org/conference/osdi27/call-for-papers
+  deadline: '2026-12-08 17:59:59'
+  timezone: America/New_York
+  date: 7 July - 9 July 2027
+  place: Baltimore, Maryland, USA
+  note: Abstract submission on 1st December, 2026 (5:59pm EST)
+  notification: '16th March, 2027'
+- title: ICS
+  year: 2027
+  id: ics27
+  link: https://klab-ai3.github.io/ics2027/calls-cfp.html
+  deadline: '2026-12-07 23:59:59'
+  date: June 2027 (FCRC, 5 June - 11 June)
+  place: Atlanta, Georgia, USA
+  note: Abstract submission on 1st December, 2026
+  notification: '12th March, 2027'
+- title: ECOOP Round 1
+  year: 2027
+  id: ecoop27r1
+  link: https://2027.ecoop.org/track/ecoop-2027-technical-papers
+  deadline: '2026-11-19 23:59:59'
+  date: 28 June - 2 July 2027
+  place: Turin, Italy
+  notification: '28th January, 2027'
+- title: ISCA
+  year: 2027
+  id: isca27
+  link: https://www.iscaconf.org/isca2027/submit/callforpapers.php
+  deadline: '2026-11-16 23:59:59'
+  date: 5 June - 9 June 2027
+  place: Atlanta, Georgia, USA
+  note: Abstract submission on 9th November, 2026
+  notification: '26th March, 2027'
+- title: PLDI
+  year: 2027
+  id: pldi27
+  link: https://pldi27.sigplan.org/track/pldi-2027-papers
+  deadline: '2026-11-12 23:59:59'
+  date: 5 June - 11 June 2027
+  place: Atlanta, Georgia, USA
+  notification: '4th March, 2027'
+- title: MLSys
+  year: 2027
+  id: mlsys27
+  link: https://mlsys.org/Conferences/2027/Dates
+  deadline: '2026-10-30 12:00:00'
+  timezone: America/Los_Angeles
+  date: 21 June - 25 June 2027
+  place: Bellevue, Washington, USA
+  notification: '28th February, 2027'
+- title: ESOP Round 2
+  year: 2027
+  id: esop27r2
+  link: https://etaps.org/2027/conferences/esop/
+  deadline: '2026-10-15 23:59:59'
+  date: 12 April - 15 April 2027
+  place: Copenhagen, Denmark
+  notification: '22nd December, 2026'
+- title: OOPSLA Round 1
+  year: 2027
+  id: oopsla27r1
+  link: https://2027.splashcon.org/track/splashoopsla2027
+  deadline: '2026-10-14 23:59:59'
+  date: 10 October - 15 October 2027
+  place: Prague, Czechia
+  notification: '18th December, 2026'
 - title: CGO Round 2
   year: 2027
   id: cgo2027r2
-  link: https://conf.researchr.org/home/cgo-2027
+  link: https://2027.cgo.org/track/cgo-2027-papers
   deadline: '2026-09-10'
-  notification: '20th October, 2026'
+  date: 20 March - 24 March 2027
+  place: Salt Lake City, Utah, USA
+  notification: '9th November, 2026'
 - title: CGO Round 1
   year: 2027
   id: cgo2027r1
-  link: https://conf.researchr.org/home/cgo-2027
+  link: https://2027.cgo.org/track/cgo-2027-papers
   deadline: '2026-06-11'
-  notification: '21st July, 2026'
+  date: 20 March - 24 March 2027
+  place: Salt Lake City, Utah, USA
+  notification: '3rd August, 2026'
 - title: PACT
   year: 2026
   id: pact26
@@ -41,15 +139,19 @@
 - title: ASPLOS April Cycle
   year: 2027
   id: asplos27april
-  link: https://www.asplos-conference.org/asplos2026/call-for-papers-asplos27/
+  link: https://www.asplos-conference.org/asplos2027/cfp/
   deadline: '2026-04-15 23:59:59'
-  place: Crete, Greece
+  date: 11 April - 15 April 2027
+  place: Heraklion, Crete, Greece
+  notification: '27th July, 2026'
 - title: ASPLOS September Cycle
   year: 2027
   id: asplos27
-  link: https://www.asplos-conference.org/asplos2026/call-for-papers-asplos27/
+  link: https://www.asplos-conference.org/asplos2027/cfp/
   deadline: '2026-09-09 23:59:59'
-  place: Crete, Greece
+  date: 11 April - 15 April 2027
+  place: Heraklion, Crete, Greece
+  notification: '21st December, 2026'
 - title: SOSP
   year: 2026
   id: sosp26
